@@ -14,4 +14,12 @@ python-dotenv
 scikit-learn
 tqdm
 typer
+dvc
+mlflow
+pytest
+evidently
+feast
+flask
+
+
 -e .

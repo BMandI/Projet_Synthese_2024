@@ -105,3 +105,64 @@ git branch -M main
 ```cmd
 git push -u origin main
 ```
+### 4) Installation de dvc:
+
+lien de la documentation : https://dvc.org/doc
+
+```cmd
+pip install dvc
+```
+
+### 5) Installation de MLFow :
+
+lien de la documentation : https://www.mlflow.org/docs/2.3.1/quickstart.html
+
+```cmd
+pip install mlflow
+```
+
+### 6) Installation de Flask:
+
+lien de la documentation : https://flask.palletsprojects.com/en/3.0.x/installation/
+
+```cmd
+pip install flask
+```
+
+### 7) Installation de Pytest:
+lien de la documentation : https://docs.pytest.org/en/7.1.x/getting-started.html#install-pytest
+
+```cmd
+pip install -U pytest
+```
+### 8) Installation de feast:
+lien de la documentation :https://docs.feast.dev/getting-started/quickstart
+
+```cmd
+pip install feast
+```
+### 9) Installation de evidently:
+lien de la documentation :https://docs.evidentlyai.com/user-guide/install-evidently
+
+```cmd
+pip install evidently
+```
+
+### 10) Installation de Docker:
+lien de la documentation :https://docs.docker.com/desktop/install/windows-install/
+
+- On va mettre toutes les librairies a telecharger dans le fichiers requirements.txt et on execute la commande:
+
+### 11) Creation d'un environement virtuel on l'appelle developpement:
+
+```cmd
+conda create --name developpement python=3.10 -y
+```
+
+```cmd
+conda activate developpement
+```
+
+```cmd
+pip install -r requirments.txt
+```
