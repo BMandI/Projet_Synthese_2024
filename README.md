@@ -1,10 +1,26 @@
-# Prédiction_Passagers_Fret_Courrier
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+# Preparation de l'environnement :
 
-Projet Final
+### 1) Création d’un repository central dans github :
+
+- https://github.com/BMandI/Projet_Synthese_2024.git
+
+### 2) Installation de cookiecutter-data-science pour la création de la structure du projet:
+
+- Documentation sur : https://cookiecutter-data-science.drivendata.org/all-options/
+
+```cmd
+pip install cookiecutter-data-science
+```
+
+```cmd
+ccds
+```
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+On obtient la structure suivante :
 
 ## Project Organization
 
@@ -59,4 +75,33 @@ Projet Final
 ```
 
 --------
+- Notre projet a été créé sur le Desktop :
 
+![alt text](image-2.png)
+
+### 3) Mettre a jour le Repository Github en versionnant notre code avec git en suivant les etapes suivantes :
+
+
+```cmd
+git init
+```
+
+```cmd
+git add .
+```
+
+```cmd
+git commit -m " Creation de la structure du projet"
+```
+
+```cmd
+git remote add origin https://github.com/BMandI/Projet_Synthese_2024.git
+```
+
+```cmd
+git branch -M main
+```
+
+```cmd
+git push -u origin main
+```
