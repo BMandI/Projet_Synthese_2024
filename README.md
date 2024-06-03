@@ -105,12 +105,16 @@ git branch -M main
 ```cmd
 git push -u origin main
 ```
-### 4) Installation de dvc:
+### 4) Installation de dvc et dvc-gdrive
 
 lien de la documentation : https://dvc.org/doc
 
 ```cmd
 pip install dvc
+```
+
+```cmd
+pip install dvc-gdrive
 ```
 
 ### 5) Installation de MLFow :
@@ -165,4 +169,30 @@ conda activate developpement
 
 ```cmd
 pip install -r requirments.txt
+```
+
+### 12) Versionnement des données avec dvc:
+
+- Initialiser dvc:
+
+```cmd
+dvc init
+```
+
+- Ajouter les données a traquer dans dvc:
+
+```cmd
+dvc add < path to data>
+```
+
+- Configurer Google Drive comme remote :
+
+```cmd
+dvc remote add -d myremote gdrive:// <path/to/remote>
+```
+Dans note cas  : path to remote = 1iRjRpzjmGq6Gd5Z0s1jNAJpJ_FP6hLT2
+
+- Pousser les donner vers Google Drive:
+```cmd
+dvc push
 ```
