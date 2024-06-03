@@ -15,6 +15,7 @@ scikit-learn
 tqdm
 typer
 dvc
+dvc-gdrive
 mlflow
 pytest
 evidently
