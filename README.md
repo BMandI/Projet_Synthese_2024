@@ -200,3 +200,12 @@ Dans note cas  : path to remote = 1iRjRpzjmGq6Gd5Z0s1jNAJpJ_FP6hLT2
 ```cmd
 dvc push
 ```
+### 13) S'assurer de l'installation de mlflow rt mlflow ui:
+
+```cmd
+pip show mlflow
+```
+
+```cmd
+mlflow ui
+```
