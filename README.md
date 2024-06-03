@@ -1,5 +1,9 @@
 
-# Preparation de l'environnement :
+
+# Projet de Synthese Module A61.
+# Etapes a réaliser :
+
+## Preparation de l'environnement :
 
 ### 1) Création d’un repository central dans github :
 
